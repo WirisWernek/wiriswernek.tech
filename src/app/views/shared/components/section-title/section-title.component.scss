@@ -1,0 +1,15 @@
+:host {
+  display: flex;
+  align-items: center;
+  gap: 1rem;  
+}
+h2 {
+  font-weight: 500 !important;
+}
+
+.line {
+  width: 19.83469rem;
+  height: 0.0625rem;
+  flex-shrink: 0;
+  background-color: var(--color-primary);
+}

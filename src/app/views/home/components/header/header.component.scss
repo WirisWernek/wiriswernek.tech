@@ -1,0 +1,26 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+
+  li {
+    cursor: pointer;
+    transition: all 0.3s;
+    color: var(--color-primary);
+
+    a {
+      color: var(--color-tertiary) !important;
+	  text-decoration: none;
+    }
+
+    &:hover {
+      a {
+        color: var(--color-secondary) !important;
+      }
+    }
+  }
+}

@@ -1,1 +1,81 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap");
+
+:root {
+  --color-primary: #bb63ff;
+  --color-secondary: #ffffff;
+  --color-tertiary: #abb2bf;
+  --bg-color: #282c33;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: var(--bg-color);
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Fira Code", serif !important;
+  font-optical-sizing: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.fs-1 {
+  font-size: 4rem;
+}
+.fs-2 {
+  font-size: 2rem;
+}
+.fs-3 {
+  font-size: 1.25rem;
+}
+.fs-4 {
+  font-size: 1.125rem;
+}
+.fs-5 {
+  font-size: 1rem;
+}
+
+.fs-1,
+.fs-2,
+.fs-3,
+.fs-4,
+.fs-5 {
+  font-style: normal;
+  line-height: normal;
+}
+
+.fs-1,
+.fs-2 {
+  font-weight: 600;
+}
+
+.fs-5,
+.fs-3 {
+  font-weight: 500;
+}
+
+.fs-4 {
+  font-weight: 400;
+}
+
+.font-primary {
+  color: var(--color-primary) !important;
+}
+.font-secondary {
+  color: var(--color-secondary) !important;
+}
+.font-tertiary {
+  color: var(--color-tertiary) !important;
+}
