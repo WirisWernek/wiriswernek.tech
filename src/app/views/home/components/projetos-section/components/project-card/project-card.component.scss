@@ -1,0 +1,31 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--color-tertiary);
+  width: 22rem;
+}
+
+img {
+  height: 12rem;
+  object-fit: cover;
+}
+
+.tags {
+  padding: 0.5rem;
+  border-top: 1px solid var(--color-tertiary);
+  border-bottom: 1px solid var(--color-tertiary);
+}
+
+span {
+  width: 100%;
+  font-weight: 400;
+}
+
+.info-project {
+  padding: 1rem;
+  gap: 1rem;
+  div {
+    display: flex;
+    gap: 1rem;
+  }
+}

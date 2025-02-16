@@ -1,0 +1,20 @@
+<img [src]="projeto().preview" alt=""/>
+
+<div class="tags">
+	<span class="fs-5 font-tertiary" >{{ projeto().tags.join(" ") }}</span>
+</div>
+
+<div class="info-project">
+	<h3 class="fs-3 font-secondary">{{ projeto().nome }}</h3>
+	<p class="fs-5 font-tertiary">{{ projeto().descricao }}</p>
+
+	<div>
+		@if (projeto().url !== undefined && projeto().url !== null && projeto().url !== "" ) {
+			<app-button [text]="'Acessar <~>'" [link]="projeto().url!" />
+		}
+
+		@if (projeto().repositorio !== undefined && projeto().repositorio !== null && projeto().repositorio !== "" ) {
+			<app-button [text]="'Código >='" [link]="projeto().repositorio!" />
+		}
+	</div>
+</div>

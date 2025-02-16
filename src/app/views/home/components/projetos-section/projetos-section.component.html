@@ -1,1 +1,10 @@
-<app-section-title [title]="'projetos'"></app-section-title>
+<div>
+  <app-section-title [title]="'projetos'"></app-section-title>
+  <a class="fs-5 font-secondary" href="https://github.com/WirisWernek" target="_blank">Ver todos ~~></a>
+</div>
+
+<section>
+  @for (item of projetos | async; track $index) {
+  <app-project-card [projeto]="item"></app-project-card>
+  }
+</section>
