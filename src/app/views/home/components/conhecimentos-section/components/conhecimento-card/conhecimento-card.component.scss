@@ -1,0 +1,24 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0;
+  width: 12rem;
+  border: 1px solid var(--color-tertiary);
+  gap: 0.5rem;
+  div {
+	display: flex;
+    flex-wrap: wrap;
+  }
+  p {
+    margin: 0;
+    padding: 0;
+    padding: 0 0.5rem;
+    color: var(--color-tertiary);
+    &.title {
+      font-weight: bold;
+      border-bottom: 1px solid var(--color-tertiary);
+      padding-bottom: 0.5rem;
+      color: var(--color-secondary);
+    }
+  }
+}
