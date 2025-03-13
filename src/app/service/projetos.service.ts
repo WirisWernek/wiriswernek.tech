@@ -14,9 +14,10 @@ export class ProjetosService {
         nome: 'Cartão de Visitas',
         descricao: 'O futuro dos ultrapassados Cartões de Visita',
         tags: ['Angular', 'Typescript', 'Bootstrap', 'PWA'],
-        repositorio: 'https://github.com/WirisWernek/digital-business-card-frontend',
+        repositorio:
+          'https://github.com/WirisWernek/digital-business-card-frontend',
         url: 'https://dbc-wiriswernek.vercel.app',
-        preview: 'https://i.ibb.co/NFZ4fMj/Cart-o-Digital-V2.png"',
+        preview: '/assets/images/projeto-1.svg',
       },
       {
         nome: 'Previsão do Tempo',
@@ -24,7 +25,7 @@ export class ProjetosService {
         tags: ['Angular', 'Typescript', 'Tailwind'],
         repositorio: 'https://github.com/WirisWernek/previsao_tempo',
         url: 'https://previsao-tempo-wiriswernek.vercel.app',
-        preview: 'https://i.ibb.co/4gCFmgz/Previs-o-do-Tempo-V2.png"',
+        preview: '/assets/images/projeto-2.svg',
       },
       {
         nome: 'Cronolog',
@@ -32,7 +33,7 @@ export class ProjetosService {
         tags: ['Angular', 'Java', 'Spring', 'MySQL'],
         repositorio: 'https://github.com/cronolog-ifes',
         url: 'http://cronolog.com.br/',
-        preview: 'https://i.ibb.co/23xBb80s/Cronolog.png"',
+        preview: '/assets/images/projeto-3.svg',
       },
     ]);
   }

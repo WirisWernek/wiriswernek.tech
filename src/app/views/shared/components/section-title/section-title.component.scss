@@ -13,3 +13,10 @@ h2 {
   flex-shrink: 0;
   background-color: var(--color-primary);
 }
+
+@media (max-width: 768px) {
+  .line {
+	display: none;
+  }
+	
+}

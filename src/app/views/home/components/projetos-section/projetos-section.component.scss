@@ -17,3 +17,12 @@ section {
   gap: 4rem;
   margin-top: 2rem;
 }
+
+@media (max-width: 768px) {
+  section {
+    flex-direction: column;
+    gap: 2rem;
+	align-items: center;
+	justify-content: center;
+  }
+}

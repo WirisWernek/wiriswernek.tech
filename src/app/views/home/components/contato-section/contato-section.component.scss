@@ -36,3 +36,17 @@ section {
     }
   }
 }
+
+@media (max-width: 768px) {
+	section{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		align-items: flex-start;
+		justify-content: center;
+		p,
+		div {
+		  width: 90%;
+		}
+	}
+}

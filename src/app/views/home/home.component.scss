@@ -6,3 +6,10 @@
 	flex-direction: column;
 	gap: 8rem;
 }
+
+@media (max-width: 768px) {
+	:host{
+		width: 90%;
+		gap: 4rem;
+	}
+}

@@ -5,16 +5,21 @@ import { Router } from '@angular/router';
   selector: 'app-button',
   imports: [],
   templateUrl: './button.component.html',
-  styleUrl: './button.component.scss'
+  styleUrl: './button.component.scss',
 })
 export class ButtonComponent {
+  text = input.required<string>();
+  link = input<string>();
+  file = input<string>();
+  option = input.required<string>();
 
-	text = input.required<string>();
-	link = input.required<string>();
+  router = inject(Router);
 
-	router = inject(Router)
-
-	handleClick() {
-		window.open(this.link(), '_blank');
-	}
+  handleClick() {
+    if (this.option() === 'link') {
+      window.open(this.link(), '_blank');
+    } else if (this.option() === 'file') {
+    //   window.(this.file())?.print();
+    }
+  }
 }

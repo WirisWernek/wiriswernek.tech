@@ -29,3 +29,13 @@ span {
     gap: 1rem;
   }
 }
+
+@media (max-width: 768px) {
+  :host {
+    width: 100%;
+  }
+
+  img{
+	height: 18rem;
+  }
+}
