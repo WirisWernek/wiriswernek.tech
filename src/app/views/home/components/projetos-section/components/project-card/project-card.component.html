@@ -5,10 +5,12 @@
 </div>
 
 <div class="info-project">
-	<h3 class="fs-3 font-secondary">{{ projeto().nome }}</h3>
-	<p class="fs-5 font-tertiary">{{ projeto().descricao }}</p>
+	<section>
+		<h3 class="fs-3 font-secondary">{{ projeto().nome }}</h3>
+		<p class="fs-5 font-tertiary">{{ projeto().descricao }}</p>
+	</section>
 
-	<div>
+	<section class="buttons">
 		@if (projeto().url !== undefined && projeto().url !== null && projeto().url !== "" ) {
 			<app-button-link [text]="'Acessar <~>'" [link]="projeto().url!" />
 		}
@@ -16,5 +18,5 @@
 		@if (projeto().repositorio !== undefined && projeto().repositorio !== null && projeto().repositorio !== "" ) {
 			<app-button-link [text]="'Código >='" [link]="projeto().repositorio!" />
 		}
-	</div>
+	</section>
 </div>

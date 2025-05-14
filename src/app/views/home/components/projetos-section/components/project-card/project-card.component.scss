@@ -24,11 +24,16 @@ span {
 .info-project {
   padding: 1rem 1rem 1.4rem 1rem;
   gap: 1rem;
+  min-height: 9.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   p {
     margin-bottom: 1.7rem;
   }
-  div {
+  .buttons {
     display: flex;
+	margin-top: auto;
     gap: 1rem;
   }
 }
@@ -47,12 +52,13 @@ span {
   }
 
   .info-project {
+	min-height: 8.1rem;
     p {
       margin-bottom: 1.2rem;
       font-size: 0.9rem;
     }
 
-    div {
+    .buttons {
       flex-wrap: wrap;
     }
   }

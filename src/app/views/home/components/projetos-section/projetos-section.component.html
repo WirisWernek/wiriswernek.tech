@@ -1,10 +1,33 @@
 <div>
   <app-section-title [title]="'projetos'"></app-section-title>
-  <a class="fs-5 font-secondary" href="https://github.com/WirisWernek" target="_blank">Ver todos ~~></a>
+  <a
+    class="fs-5 font-secondary"
+    href="https://github.com/WirisWernek"
+    target="_blank"
+    >Ver todos ~~></a
+  >
 </div>
 
 <section>
-  @for (item of projetos | async; track $index) {
-  	<app-project-card [projeto]="item"></app-project-card>
-  }
+  <ul>
+    @for (item of projetos; track $index) {
+    	<li>
+      		<app-project-card [projeto]="item"></app-project-card>
+    	</li>
+    }
+  </ul>
+  <ul aria-hidden="true">
+    @for (item of projetos; track $index) {
+    	<li>
+      		<app-project-card [projeto]="item"></app-project-card>
+    	</li>
+    }
+  </ul>
+  <ul aria-hidden="true">
+    @for (item of projetos; track $index) {
+    	<li>
+      		<app-project-card [projeto]="item"></app-project-card>
+    	</li>
+    }
+  </ul>
 </section>
