@@ -1,13 +1,13 @@
 :host{
 	padding-top: 2.5rem;
-	width: 62%;
+	width: 70%;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 	gap: 8rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
 	:host{
 		width: 90%;
 		gap: 4rem;

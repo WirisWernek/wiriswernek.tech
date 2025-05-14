@@ -25,11 +25,13 @@
 
 @media (max-width: 768px) {
   section {
+	width: 100%;
     flex-direction: column !important;
     align-self: center !important;
     justify-content: center !important;
     gap: 1rem !important;
     div {
+	  width: 100% !important;
       align-items: center !important;
       gap: 1rem !important;
     }
