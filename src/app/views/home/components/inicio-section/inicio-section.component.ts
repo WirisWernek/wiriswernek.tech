@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { ButtonComponent } from '../../../shared/components/button/button.component';
+import { ButtonFileComponent } from '../../../shared/components/button-file/button-file.component';
 
 @Component({
   selector: 'app-inicio-section',
-  imports: [ButtonComponent],
+  imports: [ButtonFileComponent],
   templateUrl: './inicio-section.component.html',
   styleUrl: './inicio-section.component.scss',
 })

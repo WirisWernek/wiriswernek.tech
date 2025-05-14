@@ -22,8 +22,11 @@ span {
 }
 
 .info-project {
-  padding: 1rem;
+  padding: 1rem 1rem 1.4rem 1rem;
   gap: 1rem;
+  p {
+    margin-bottom: 1.7rem;
+  }
   div {
     display: flex;
     gap: 1rem;
@@ -35,7 +38,7 @@ span {
     width: 100%;
   }
 
-  img{
-	height: 18rem;
+  img {
+    height: 18rem;
   }
 }

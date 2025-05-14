@@ -10,11 +10,11 @@
 
 	<div>
 		@if (projeto().url !== undefined && projeto().url !== null && projeto().url !== "" ) {
-			<app-button [text]="'Acessar <~>'" [link]="projeto().url!" [option]="'link'" />
+			<app-button-link [text]="'Acessar <~>'" [link]="projeto().url!" />
 		}
 
 		@if (projeto().repositorio !== undefined && projeto().repositorio !== null && projeto().repositorio !== "" ) {
-			<app-button [text]="'Código >='" [link]="projeto().repositorio!" [option]="'link'" />
+			<app-button-link [text]="'Código >='" [link]="projeto().repositorio!" />
 		}
 	</div>
 </div>
