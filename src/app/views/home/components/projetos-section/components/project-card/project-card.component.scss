@@ -33,12 +33,27 @@ span {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   :host {
     width: 100%;
+    max-width: 22rem;
+    margin: 0 auto;
   }
 
   img {
-    height: 18rem;
+    width: 100%;
+    height: auto;
+    min-height: 10rem;
+  }
+
+  .info-project {
+    p {
+      margin-bottom: 1.2rem;
+      font-size: 0.9rem;
+    }
+
+    div {
+      flex-wrap: wrap;
+    }
   }
 }

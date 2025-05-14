@@ -79,3 +79,21 @@ h6 {
 .font-tertiary {
   color: var(--color-tertiary) !important;
 }
+
+@media (max-width: 992px) {
+  .fs-1 {
+    font-size: 2.5rem;
+  }
+  .fs-2 {
+    font-size: 1.5rem;
+  }
+  .fs-3 {
+    font-size: 1.125rem;
+  }
+  .fs-4 {
+    font-size: 1rem;
+  }
+  .fs-5 {
+    font-size: 0.875rem;
+  }
+}
