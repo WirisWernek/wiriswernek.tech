@@ -16,7 +16,7 @@ export class ProjetosService {
         repositorio:
           'https://github.com/WirisWernek/digital-business-card-frontend',
         url: 'https://dbc-wiriswernek.vercel.app',
-        preview: '/assets/images/projeto-1.svg',
+        preview: '/assets/images/projeto-1.png',
       },
       {
         nome: 'Previsão do Tempo',
@@ -24,7 +24,7 @@ export class ProjetosService {
         tags: ['Angular', 'Typescript', 'Tailwind'],
         repositorio: 'https://github.com/WirisWernek/previsao_tempo',
         url: 'https://previsao-tempo-wiriswernek.vercel.app',
-        preview: '/assets/images/projeto-2.svg',
+        preview: '/assets/images/projeto-2.png',
       },
       {
         nome: 'Cronolog',
@@ -32,7 +32,7 @@ export class ProjetosService {
         tags: ['Angular', 'Java', 'Spring', 'MySQL'],
         repositorio: 'https://github.com/cronolog-ifes',
         url: 'http://cronolog.com.br/',
-        preview: '/assets/images/projeto-3.svg',
+        preview: '/assets/images/projeto-3.png',
       },
       {
         nome: 'Pede Aí',
@@ -40,14 +40,14 @@ export class ProjetosService {
         tags: ['Angular', 'Bootstrap', 'WhasApp'],
         repositorio: 'https://github.com/WirisWernek/pede-ai',
         url: 'https://pedeai-wiriswernek.vercel.app/acai',
-        preview: '/assets/images/projeto-4.svg',
+        preview: '/assets/images/projeto-4.png',
       },
       {
         nome: 'Fisctrack Web',
         descricao: 'Cliente do gerenciador de notas fiscais.',
         tags: ['Angular', 'PrimeNg', 'Typescript'],
         repositorio: 'https://github.com/WirisWernek/fisctrack-web',
-        preview: '/assets/images/projeto-5.svg',
+        preview: '/assets/images/projeto-5.png',
       },
       {
         nome: 'Fisctrack Core',
@@ -55,7 +55,7 @@ export class ProjetosService {
         tags: ['Quarkus', 'Java', 'PostgreSQL'],
         repositorio: 'https://github.com/WirisWernek/fisctrack-core',
         url: 'https://wiriswernek.github.io/fisctrack-core',
-        preview: '/assets/images/projeto-6.svg',
+        preview: '/assets/images/projeto-6.png',
       },
       {
         nome: 'Github Repos',
@@ -63,7 +63,7 @@ export class ProjetosService {
         tags: ['Angular', 'Github API', 'Tailwind'],
         repositorio: 'https://github.com/WirisWernek/github-repos',
         url: 'https://github-repos-wiriswernek.vercel.app',
-        preview: '/assets/images/projeto-7.svg',
+        preview: '/assets/images/projeto-7.png',
       },
       {
         nome: 'QR Code Generator',
@@ -71,15 +71,15 @@ export class ProjetosService {
         tags: ['Angular', 'Typescript', 'Bootstrap'],
         repositorio: 'https://github.com/WirisWernek/qr-code-generator',
         url: 'https://qr-code-generator-wiriswernek.vercel.app',
-        preview: '/assets/images/projeto-8.svg',
+        preview: '/assets/images/projeto-8.png',
       },
       {
         nome: 'Logmine',
-        descricao: 'Gerenciador de logs para aplicações Java.',
+        descricao: 'Gerenciador de logs para aplicações Java.', 
         tags: ['Angular', 'Typescript', 'SCSS'],
         repositorio: 'https://github.com/WirisWernek/logmine',
         url: 'https://logmine.vercel.app/',
-        preview: '/assets/images/projeto-9.svg',
+        preview: '/assets/images/projeto-9.png',
       },
       {
         nome: 'Links',
@@ -87,7 +87,7 @@ export class ProjetosService {
         tags: ['HTML', 'CSS', 'Javascript'],
         repositorio: 'https://github.com/WirisWernek/wiriswernek.links',
         url: 'https://links.wiriswernek.tech/',
-        preview: '/assets/images/projeto-10.svg',
+        preview: '/assets/images/projeto-10.png',
       },
     ];
   }
